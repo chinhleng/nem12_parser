@@ -17,3 +17,6 @@
 |>nem12.readFile
 |>nem12.getNMIs
 |> Seq.iter (fun s -> printfn $"{s}")
+let fileContent= nem12.readFile "nem12_sample.txt"
+let NMIs = nem12.getNMIs fileContent
+nem12.getData fileContent NMIs[0]
