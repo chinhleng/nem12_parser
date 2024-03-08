@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "nem12_parser", "nem12_parser\nem12_parser.fsproj", "{DD123A42-2BB9-4251-AA29-BAD90E41D51A}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "test", "test\test.fsproj", "{557639EE-E5D3-47FA-9ABB-C4621D2DFCF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD123A42-2BB9-4251-AA29-BAD90E41D51A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD123A42-2BB9-4251-AA29-BAD90E41D51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD123A42-2BB9-4251-AA29-BAD90E41D51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD123A42-2BB9-4251-AA29-BAD90E41D51A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{557639EE-E5D3-47FA-9ABB-C4621D2DFCF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{557639EE-E5D3-47FA-9ABB-C4621D2DFCF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{557639EE-E5D3-47FA-9ABB-C4621D2DFCF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{557639EE-E5D3-47FA-9ABB-C4621D2DFCF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
