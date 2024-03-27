@@ -1,4 +1,5 @@
 ﻿open nem12_parser
+open System.Collections.Generic
 // let lines = nem12.readFile "nem12_sample.txt"
 // let NMIs = ResizeArray<string>()
 // for line in lines do
@@ -13,12 +14,16 @@
 // |> Seq.distinct
 // |> Seq.iter (fun s -> printfn $"{s}")
 // printfn "done"
-"nem12_sample.txt"
-|> nem12.readFile
-|> nem12.getNMIs
-|> Seq.iter (fun s -> printfn $"{s}")
-
-let fileContent = nem12.readFile "nem12_sample.txt"
-let NMIs = nem12.getNMIs fileContent
-nem12.getIntervalData fileContent NMIs[0]
-nem12.parseLineIntervalData 15 fileContent[4] |> ignore
+// "nem12_sample.txt"
+// |> nem12.readFile
+// |> nem12.getNMIs
+// |> Seq.iter (fun s -> printfn $"{s}")
+// let fileContent = nem12.readFile "nem12_sample.txt"
+// let NMIs = nem12.getNMIs fileContent
+// nem12.getIntervalData fileContent NMIs[0]
+// for nmi in NMIs do
+//   nem12.parserNMIData data nmi fileContent
+let nmiFile =
+  "nem12_sample.txt"
+  |> nem12.parseNmiFile
+()
